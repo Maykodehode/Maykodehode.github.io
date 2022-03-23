@@ -1,0 +1,112 @@
+/* CSS HEX codes */
+/* --middle-grey: #847D73ff;
+--grullo: #AFA394ff;
+--black-olive: #45423Fff;
+--black: #070705ff;
+--timberwolf: #E0D8CEff; */
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #AFA394ff;
+    background-image: url(images/stars-sky-fiksa.png);
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 100px 50px;
+    border: 3px solid #AFA394ff;
+    border-radius: 7%;
+    box-shadow: 1px 1px 10px 2px #fff;
+}
+
+a {
+    color: #f8f9fa;
+}
+
+a:hover {
+    color: crimson;
+}
+
+/* fun-fact box group */
+.sidebar {
+    justify-content: center;
+    display: flex;
+}
+
+/* image bar */
+.right-sidebar {
+    justify-content: center;
+    display: flex;
+}
+
+/* fun-fact box */
+.col {
+    border: 3px solid #AFA394ff;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 8px;
+    text-align: center;
+    width: 200px;
+    margin: 100px 50px;
+    background-color: #070705ff;
+    background-image: url(images/tiles.jpg);
+    box-shadow: 1px 1px 10px 2px #fff;
+    color: #AFA394ff;
+    font-size: 18px;
+}
+
+/* join us - button */
+button {
+    display: inline-block;
+    padding: .5em 1.25em;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #AFA394ff;
+}
+
+/* image behind headline */
+.hero-image {
+    background: url(images/saturn.jpg) no-repeat center;
+    background-size: contain;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+
+  /* text inside headline-image */
+.hero-text {
+    position: absolute;
+    top: 54%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: #AFA394ff;
+}
+
+    /* middle text */
+.mid-text {
+    margin: 60px auto;
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+    color: #f8f9fa;
+    background: #00050A;
+}
+
+    /* link-text */
+.reference {
+        font-size: small;
+}
+
+/* sources at the end of the page */
+.footer-text {
+    text-align: center;
+    font-size: 10px;
+    color: #f8f9fa;
+}
+
+
+  
